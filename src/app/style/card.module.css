@@ -1,0 +1,17 @@
+.cardWrapper {
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.cardText {
+  font-size: 18px;
+  mix-blend-mode: difference;
+}
