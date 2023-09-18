@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "../style/page.module.css";
+import { useQuery } from "@tanstack/react-query";
 
 function Search() {
+  const [search, setPrev] = useState();
+  const { data } = useQuery({
+    queryKey: "search",
+  });
   const handleSearchClick = () => {
     let input = document.getElementById("searchInput").value;
   };
